@@ -20,8 +20,8 @@
 7. В открывшейся командной строки выбирай  `Connect to Host`, выбери `localhost`, введи пароль (от root пользователя виртуалки) и работай
 
 ### Команды
-`docker ps` - вывести список докеров
-`docker images` - вывети образы и из размеры
+- `docker ps` - вывести список докеров
+- `docker images` - вывести образы и из размеры
 
 ### Checklist
 [checklist](https://github.com/luta-wolf/inception/tree/main/pdf/inc_check.pdf)
