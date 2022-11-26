@@ -6,11 +6,12 @@
 
 
 [Гайд](https://github.com/codesshaman/inception)  от jleslee
+[Гайд](https://github.com/rbiodies/Inception/blob/main/README.md) от rbiodies
 
 
 Чтобы работать с вирутальной машиной из `VC Code`
 1. Установи плагин Remote - SSH
-2. Окрой командную сроку VS Code нажать `⇧``⌘``P` (Shift + Command + P)
+2. Окрой командную сроку VS Code (нажать `⇧``⌘``P` или Shift + Command + P на школьных маках)
 3. В командной строке введи выбери `Remote-SSH: Add New SSH Host`
 4. Далее подключаемся по ssh `ssh root@localhost -p 42`
 5. Выбираем `/Users/einterdi/.ssh/config` и жмакаем на кнопку `Подключиться`
