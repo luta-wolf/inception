@@ -5,8 +5,8 @@
 [suject](https://github.com/luta-wolf/inception/tree/main/pdf/inc_subject.pdf)
 
 
-[Гайд](https://github.com/codesshaman/inception)  от jleslee
-[Гайд](https://github.com/rbiodies/Inception/blob/main/README.md) от rbiodies
+- [Гайд](https://github.com/codesshaman/inception)  от jleslee
+- [Гайд](https://github.com/rbiodies/Inception/blob/main/README.md) от rbiodies
 
 
 Чтобы работать с вирутальной машиной из `VC Code`
