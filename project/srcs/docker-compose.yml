@@ -11,7 +11,7 @@ services:
     ports:
       - "443:443"
     networks:
-      - inception
+      - einterdi_network
     volumes:
       - ./requirements/nginx/conf/:/etc/nginx/http.d/
       - ./requirements/nginx/tools:/etc/nginx/ssl/
@@ -31,7 +31,7 @@ services:
     ports:
       - "3306:3306"
     networks:
-      - inception
+      - einterdi_network
     volumes:
       - db-volume:/var/lib/mysql
     restart: always
@@ -48,7 +48,7 @@ services:
     depends_on:
       - mariadb
     networks:
-      - inception
+      - einterdi_network
     volumes:
       - wp-volume:/var/www/
     restart: always
@@ -63,7 +63,7 @@ services:
     ports:
       - "6379:6379"
     networks:
-      - inception
+      - einterdi_network
     restart: always
 
   vsftpd:
@@ -81,7 +81,7 @@ services:
     volumes:
       - wp-volume:/var/www/
     networks:
-     - inception
+     - einterdi_network
     restart: always
 
   adminer:
@@ -94,7 +94,7 @@ services:
     ports:
       - "8080:8080"
     networks:
-     - inception
+     - einterdi_network
     restart: always
 
   website:
@@ -120,5 +120,5 @@ volumes:
       device: /home/${USER}/data/mariadb
 
 networks:
-    inception:
+    einterdi_network:
         driver: bridge
