@@ -31,6 +31,8 @@
 - `docker images` - вывести образы и их размеры
 - `docker stop <имя_контейнера>` - останавливает выбранный контейнер
 - `docker restart <имя_контейнера>` - перезапускает выбранный контейнер
+- `docker exec -it mariadb mysql -u root` - позволяет зайти в бд MariaDB
+  - `show databases;` - просмотр бд
 
 ### Checklist
 [checklist](https://github.com/luta-wolf/inception/tree/main/pdf/inc_check.pdf)
