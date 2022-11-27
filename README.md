@@ -4,10 +4,16 @@
 - Виртуализация нескольких образов Docker на виртуальной машине
 ### Subject
 [subject](https://github.com/luta-wolf/inception/tree/main/pdf/inc_subject.pdf)
+### Теоретический материал
+- [Docker и Docker-Compose Tutorial](https://ivan-shamaev.ru/docker-compose-tutorial-container-image-install/)
+- [Руководство по Docker Compose для начинающих](https://habr.com/ru/company/ruvds/blog/450312/)
+- [Nginx, Php-Fpm и что это вообще?](https://perfect-inc.com/journal/nginx-php-fpm-i-chto-eto-voobshche/)
+- [MariaDB](https://ru.wikipedia.org/wiki/MariaDB)
+- [Установка WordPress с помощью Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose-ru)
 
 ### Гайды
-[Гайд](https://github.com/codesshaman/inception)  от jleslee
-[Гайд](https://github.com/rbiodies/Inception/blob/main/README.md) от rbiodies
+- [Гайд](https://github.com/codesshaman/inception)  от jleslee
+- [Гайд](https://github.com/rbiodies/Inception/blob/main/README.md) от rbiodies
 
 
 ### Работа с вирутальной машиной из `VC Code`
