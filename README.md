@@ -26,8 +26,11 @@
 7. В открывшейся командной строки выбирай  `Connect to Host`, выбери `localhost`, введи пароль (от root пользователя виртуалки) и работай
 
 ### Команды
+- `docker info` - информация по докерам
 - `docker ps` - вывести список докеров
-- `docker images` - вывести образы и из размеры
+- `docker images` - вывести образы и их размеры
+- `docker stop <имя_контейнера>` - останавливает выбранный контейнер
+- `docker restart <имя_контейнера>` - перезапускает выбранный контейнер
 
 ### Checklist
 [checklist](https://github.com/luta-wolf/inception/tree/main/pdf/inc_check.pdf)
