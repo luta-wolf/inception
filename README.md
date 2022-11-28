@@ -5,7 +5,9 @@
 ### Subject
 [subject](https://github.com/luta-wolf/inception/tree/main/pdf/inc_subject.pdf)
 ### Теоретический материал
+- [Docker официальная документация](https://docs.docker.com/)
 - [Docker и Docker-Compose Tutorial](https://ivan-shamaev.ru/docker-compose-tutorial-container-image-install/)
+- [Образы и контейнеры Docker в картинках](https://habr.com/ru/post/272145/)
 - [Руководство по Docker Compose для начинающих](https://habr.com/ru/company/ruvds/blog/450312/)
 - [Nginx, Php-Fpm и что это вообще?](https://perfect-inc.com/journal/nginx-php-fpm-i-chto-eto-voobshche/)
 - [MariaDB](https://ru.wikipedia.org/wiki/MariaDB)
@@ -16,14 +18,10 @@
 - `Docker-compose` — это система сборки, запуска и управления множеством контейнеров. Docker-compose не входит в единый пакет поставки Docker и устанавливается отдельно. Для сборки кластера контейнеров используется docker-compose.yml.
 - `Docker-compose.yml` — конфигурационный файл в YAML-формате, описывающий логику запуска и взаимодействия контейнеров между собой и внешним миром. В сущности инструкции заложенные в docker-compose.yml по логике работы идентичны ключам команды docker run.
 - `Docker vs virtual machine` - основное различие между контейнерами и виртуальными машинами заключается в том, что контейнеры охватывают только уровень приложения и полагаются на базовое ядро ​​операционной системы, в случае виртуальной машины создается новый экземпляр операционной системы.
-
 ### Гайды
 - [Гайд](https://github.com/codesshaman/inception)  от jleslee
 - [Гайд](https://github.com/rbiodies/Inception/blob/main/README.md) от rbiodies
 - [Видеогайд](https://www.youtube.com/watch?v=Veuv7MjaIKQ&t=3119s&ab_channel=Edu_events_mow) от meunostu
-- [Видео защиты проекта](https://www.youtube.com/watch?v=nFr3yqEt1W0&ab_channel=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%94%D0%B8%D0%B4%D0%B5%D0%BD%D0%BA%D0%BE) от sjacki
-
-
 ### Работа с вирутальной машиной из `VC Code`
 1. Установи плагин Remote - SSH
 2. Окрой командную сроку (нажать `⇧``⌘``P` или Shift + Command + P на школьных маках)
@@ -32,7 +30,6 @@
 5. Выбираем `/Users/einterdi/.ssh/config`  и жмакаем на кнопку `Подключиться`
 6. В нижнем левом углу VS Code нажимаем на зеленый значек соединения
 7. В открывшейся командной строки выбирай  `Connect to Host`, выбери `localhost`, введи пароль (от root пользователя виртуалки) и работай
-
 ### Команды
 - `docker --help` - показать все доступные команды
 - `docker info` - информация по докерам
@@ -47,6 +44,7 @@
 - `docker restart <имя_или_id_контейнера>` - перезапускает выбранный контейнер
 - `docker exec -it mariadb mysql -u root` - позволяет зайти в бд MariaDB
   - `show databases;` - просмотр бд
-
 ### Checklist
 [checklist](https://github.com/luta-wolf/inception/tree/main/pdf/inc_check.pdf)
+
+- [Видео защиты проекта](https://www.youtube.com/watch?v=nFr3yqEt1W0&ab_channel=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%94%D0%B8%D0%B4%D0%B5%D0%BD%D0%BA%D0%BE) от sjacki
