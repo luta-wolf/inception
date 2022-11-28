@@ -31,6 +31,7 @@
 6. В нижнем левом углу VS Code нажимаем на зеленый значек соединения
 7. В открывшейся командной строки выбирай  `Connect to Host`, выбери `localhost`, введи пароль (от root пользователя виртуалки) и работай
 ### Команды
+Команды `docker` работают из любой директории
 - `docker --help` - показать все доступные команды
 - `docker info` - информация по докерам
 - `docker ps` - вывести список докеров
@@ -45,6 +46,16 @@
 - `docker exec -it mariadb mysql` - позволяет зайти в бд MariaDB под пользователем
 - `docker exec -it mariadb mysql -u root` - позволяет зайти в бд MariaDB под root
   - `show databases;` - просмотр бд
+
+Команды `docker-compose` работают из директории, где находится файл docker-compose.yml
+- `docker-compose --help` - показать все доступные команды
+- `docker-compose ps` - вывести список докеров
+- `docker-compose up -d` - запускает контейнеры по образам
+- `docker-compose stop` - остановить контейнеры
+- `docker-compose down` - остановить и удалить контейнеры, сети, образы и тома
+- `docker-compose --build` - создает образы из Dockerfile
+- `docker-compose images` вывести образы и их размеры
+- `docker-compose kill <имя_или_id_контейнера>` - останавливает выбранный контейнер
 ### Checklist
 [checklist](https://github.com/luta-wolf/inception/tree/main/pdf/inc_check.pdf)
 
