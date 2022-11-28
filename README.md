@@ -57,18 +57,43 @@
 - `docker-compose --build` - создает образы из Dockerfile
 - `docker-compose images` вывести образы и их размеры
 - `docker-compose kill <имя_или_id_контейнера>` - останавливает выбранный контейнер
-### Checklist
+### Защита
 [checklist](https://github.com/luta-wolf/inception/tree/main/pdf/inc_check.pdf)
 
 - [Видео защиты проекта](https://www.youtube.com/watch?v=nFr3yqEt1W0&ab_channel=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%94%D0%B8%D0%B4%D0%B5%D0%BD%D0%BA%D0%BE) от sjacki
 
-`http://localhost:8080` - запуск adminer
+**Бонусы**
+1. website
+
+- `http://localhost/`
+<img width="249" alt="image" src="https://user-images.githubusercontent.com/58044383/204337895-e03db7c6-1594-4fb3-a4bf-8ea22597b47f.png">
+2. adminer
+
+- `http://localhost:8080` - запуск adminer
 <img width="638" alt="image" src="https://user-images.githubusercontent.com/58044383/204332432-3241aa4a-904d-4e64-a3a5-839ca041a018.png">
+3. vsftpd
 
 Из виртуальной машины запускаем приложение `FileZilla`
+```
 Host: 127.0.0.1
 Username: ftpuser
 Password: ftppass
 Port: 21
+```
 <img width="1198" alt="image" src="https://user-images.githubusercontent.com/58044383/204333409-0f995571-6187-4bf9-8c07-afa0957b05d3.png">
+4. portainer
 
+Запускаем контейнер portainer отдельно от остальных:
+```
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.11.1
+```
+`https://localhost:9443`
+```
+Login: admin
+Password: einterdi
+```
+<img width="1025" alt="image" src="https://user-images.githubusercontent.com/58044383/204336274-3e9a3910-0114-4cdb-98e9-37d7d4c75f93.png">
+5. redis
+6. 
+Устанавливаем его из плагинов wordpress
+<img width="1258" alt="image" src="https://user-images.githubusercontent.com/58044383/204343498-47142427-a0d6-4272-b53f-be8be1da8099.png">
