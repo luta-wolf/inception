@@ -42,7 +42,8 @@
 - `docker stop <имя_или_id_контейнера>` - останавливает выбранный контейнер
 - `docker start <имя_или_id_контейнера>` - запускает выбранный контейнер
 - `docker restart <имя_или_id_контейнера>` - перезапускает выбранный контейнер
-- `docker exec -it mariadb mysql -u root` - позволяет зайти в бд MariaDB
+- `docker exec -it mariadb mysql` - позволяет зайти в бд MariaDB под пользователем
+- `docker exec -it mariadb mysql -u root` - позволяет зайти в бд MariaDB под root
   - `show databases;` - просмотр бд
 ### Checklist
 [checklist](https://github.com/luta-wolf/inception/tree/main/pdf/inc_check.pdf)
