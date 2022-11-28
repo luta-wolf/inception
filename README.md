@@ -4,6 +4,9 @@
 - Виртуализация нескольких образов Docker на виртуальной машине
 ### Subject
 [subject](https://github.com/luta-wolf/inception/tree/main/pdf/inc_subject.pdf)
+
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/58044383/204354456-d5980b8f-4001-44c4-a6dd-1594a28178c0.png">
+
 ### Теоретический материал
 - [Docker официальная документация](https://docs.docker.com/)
 - [Docker и Docker-Compose Tutorial](https://ivan-shamaev.ru/docker-compose-tutorial-container-image-install/)
