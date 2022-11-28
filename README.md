@@ -61,3 +61,14 @@
 [checklist](https://github.com/luta-wolf/inception/tree/main/pdf/inc_check.pdf)
 
 - [Видео защиты проекта](https://www.youtube.com/watch?v=nFr3yqEt1W0&ab_channel=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%94%D0%B8%D0%B4%D0%B5%D0%BD%D0%BA%D0%BE) от sjacki
+
+`http://localhost:8080` - запуск adminer
+<img width="638" alt="image" src="https://user-images.githubusercontent.com/58044383/204332432-3241aa4a-904d-4e64-a3a5-839ca041a018.png">
+
+Из виртуальной машины запускаем приложение `FileZilla`
+Host: 127.0.0.1
+Username: ftpuser
+Password: ftppass
+Port: 21
+<img width="1198" alt="image" src="https://user-images.githubusercontent.com/58044383/204333409-0f995571-6187-4bf9-8c07-afa0957b05d3.png">
+
