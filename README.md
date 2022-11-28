@@ -20,6 +20,8 @@
 ### Гайды
 - [Гайд](https://github.com/codesshaman/inception)  от jleslee
 - [Гайд](https://github.com/rbiodies/Inception/blob/main/README.md) от rbiodies
+- [Видеогайд](https://www.youtube.com/watch?v=Veuv7MjaIKQ&t=3119s&ab_channel=Edu_events_mow) от meunostu
+- [Видео защиты проекта](https://www.youtube.com/watch?v=nFr3yqEt1W0&ab_channel=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%94%D0%B8%D0%B4%D0%B5%D0%BD%D0%BA%D0%BE) от sjacki
 
 
 ### Работа с вирутальной машиной из `VC Code`
@@ -36,6 +38,7 @@
 - `docker info` - информация по докерам
 - `docker ps` - вывести список докеров
 - `docker images` - вывести образы и их размеры
+- `docker network ls` - выводит все сетевые соединения
 - `docker stop <имя_контейнера>` - останавливает выбранный контейнер
 - `docker start <имя_контейнера>` - запускает выбранный контейнер
 - `docker restart <имя_контейнера>` - перезапускает выбранный контейнер
