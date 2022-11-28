@@ -100,3 +100,5 @@ Password: einterdi
 
 Устанавливаем его из плагинов wordpress
 <img width="1258" alt="image" src="https://user-images.githubusercontent.com/58044383/204343498-47142427-a0d6-4272-b53f-be8be1da8099.png">
+### Полезные материалы
+- [Docker Hub](https://hub.docker.com/) - публичный репозиторий, куда вы можете загружать свои образы (images) для совместной работы с командой, заказчиками или другими пользователями.
