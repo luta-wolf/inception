@@ -94,6 +94,6 @@ Password: einterdi
 ```
 <img width="1025" alt="image" src="https://user-images.githubusercontent.com/58044383/204336274-3e9a3910-0114-4cdb-98e9-37d7d4c75f93.png">
 5. redis
-6. 
+
 Устанавливаем его из плагинов wordpress
 <img width="1258" alt="image" src="https://user-images.githubusercontent.com/58044383/204343498-47142427-a0d6-4272-b53f-be8be1da8099.png">
