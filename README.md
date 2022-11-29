@@ -152,3 +152,4 @@ Password: einterdi
 - [Видео защиты проекта](https://www.youtube.com/watch?v=nFr3yqEt1W0&ab_channel=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%94%D0%B8%D0%B4%D0%B5%D0%BD%D0%BA%D0%BE) от sjacki
 ## Полезные материалы
 - [Docker Hub](https://hub.docker.com/) - популярный публичный репозиторий, куда вы можете загружать свои образы (images) для совместной работы с командой, заказчиками или другими пользователями.
+- [Alpine Linux](https://www.alpinelinux.org/) - дистрибутив Linux, ориентированный на безопасность, легковесность и нетребовательность к ресурсам.
