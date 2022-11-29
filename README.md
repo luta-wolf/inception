@@ -96,7 +96,8 @@ Port: 21
 4. Website
 
 - `http://localhost/`
-<img width="249" alt="image" src="https://user-images.githubusercontent.com/58044383/204337895-e03db7c6-1594-4fb3-a4bf-8ea22597b47f.png">
+<img width="1140" alt="image" src="https://user-images.githubusercontent.com/58044383/204483777-cc799c62-bb8c-4134-a852-9a7516b51f0e.png">
+
 5. Portainer
 
 Запускаем контейнер portainer отдельно от остальных:
