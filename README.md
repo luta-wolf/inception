@@ -42,6 +42,7 @@
 <img width="684" alt="image" src="https://user-images.githubusercontent.com/58044383/204354456-d5980b8f-4001-44c4-a6dd-1594a28178c0.png">
 
 ## Теоретический материал
+- [VirtualBox: Установка и настройка (для новичков)](https://www.youtube.com/watch?v=j1FAZ0bUEvs&ab_channel=Pingvinus)
 - [Docker официальная документация](https://docs.docker.com/)
 - [Docker и Docker-Compose Tutorial](https://ivan-shamaev.ru/docker-compose-tutorial-container-image-install/)
 - [Образы и контейнеры Docker в картинках](https://habr.com/ru/post/272145/)
